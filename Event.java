@@ -1,4 +1,3 @@
-import java.util.Date;
 public class Event implements Comparable<Event> {
     private String name;
     private String date;  
@@ -16,7 +15,7 @@ public class Event implements Comparable<Event> {
 
     public int compareTo(Event other) {
         return this.date.compareTo(other.date);
-    }
+    }A
 
     public boolean overlapsWith(Event other) {
         if (!this.date.equals(other.date)) {
